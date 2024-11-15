@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:100;
+    font-style: normal;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    max-width: 60%;
+    background-color: white;
+    margin:auto;
+    box-shadow: 1px 1px 15px black;
+}
+
+
+.first-column{
+    padding: 20px;
+    margin-right: 10px;
+    border-right: 10px;
+    background-color: rgb(31, 55, 70);
+    color:white;
+}
+
+img{
+    border-radius: 100px;
+}
+
+.top{
+    text-align: center;
+}
+
+.contact{
+    margin-bottom:50px;
+}
+
+.list{
+    list-style-type: none;
+    padding:5px;
+}
+
+h3{
+    color:rgb(23, 51, 73);
+}
+
+ul{
+    margin-left:-35px;
+}
+
+.second-column{
+    margin-top: 25px;
+    margin-bottom:20px;
+}
